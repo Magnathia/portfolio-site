@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+{% blocktrans %}
+<h2>Origin Story</h2>
+<p>
+    In 2004, I joined the Army National Guard with the intent to use the GI Bill for school.
+    It took me a while but I finally accomplished this goal in July of 2018. I am currently
+    attending Southern New Hampshire University (SNHU) for Game Development and Design.
+    Taking a step back, I got out of the Army in November of 2012 and quickly got a job at
+    Westmark Products where I eventually took the position of optimizer. Using software such as
+    Excel and ARDIS, I quickly realized that there had to be a faster way to clean up the data
+    that was being exported from the ERP system, Insight. I took up Python and became addicted.
+    Later I moved on to Bellmont Cabinets and eventually took up a position in order entry. This
+    was a playground for me. There were so many steps to automate and streamline to make the job easier,
+    that I had to slow down and focus on one at a time. The first task was to standardize and script out
+    scheduling of orders. During this process I was exposed to SQL. I accomplished the scheduling issues
+    by working closly with our IT team using stored procedures and eventually was writing my own. After I got
+    comfortable with SQL, I went and got my Microsoft SQL MTA. Soon after, Bellmont switch optimizing software
+    to Bluecell by Eurosoft. This was a dream come true for me because it used both SQL and Python to
+    accomplish its' tasks. I used Python to delve into the old optimizing software and pull out
+    information from its board library so we could preserve the remnants from the old system.
+    This wasn't the most elegant code but it worked. Next, I worked on the parts import stored procedures
+    and the python optimization scripts. Before I knew it, I had 90% of my job automated. From there,
+    I moved back down to the shop floor as a Job Coordinator and used the same mentality to
+    optimize the human aspects of building a cabinet. Everything from timing to daily production goals.
+    By the end of my time at Bellmont, my department had the least amount of overtime through out the entire
+    company, largely due to my efforts in finding the smoothest way to get the job's done. Now I am looking for
+    my next challenge and I want it to be in Technology. I have taken courses on Corsera.org and was awarded certificates
+    for Neural Networking and deep learning from Stanford University as well as a Google IT Support Professional certificate.
+
+    This site is still under development. With that said, it is my intention to have this site serve as my portfolio,
+    as well as a blog for tutorials on various technologies as I learn them. Feel free to contact me through the contact
+    page
+</p>
+
+{% endblocktrans %}
+{% endblock %}
